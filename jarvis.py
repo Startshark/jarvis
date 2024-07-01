@@ -1,5 +1,6 @@
 import os
 import random
+import sympy
 import numpy as np
 import scipy as sp
 import matplotlib.pyplot as plt
@@ -20,4 +21,3 @@ SPARKAI_API_SECRET = os.environ["SPARKAI_API_SECRET"]
 SPARKAI_API_KEY = os.environ["SPARKAI_API_KEY"]
 config = Config(SPARKAI_APP_ID, SPARKAI_API_KEY, SPARKAI_API_SECRET)
 
-# Test for git push
